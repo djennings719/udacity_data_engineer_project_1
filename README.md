@@ -15,45 +15,19 @@
 
 #### Sparkify requires the ability to analyze data regarding which songs are being played.  
 
+## Reasoning for database schema
+
 ### Song 
-#### song_id   - varchar
-#### title     - varchar   
-#### artist_id - varchar 
-#### year      - int
-#### duration  - numeric
+![Songs Table](./images/songs_table.png)
 
 ### Artist
-#### artist_id  varchar
-#### name       varchar
-#### location   varchar
-#### latitude   numeric
-#### longitude  numeric
+![Artists Table](./images/artists_table.png)
 
 ### Time
-#### start_time time
-#### hour      int
-#### day       int
-#### week      int
-#### month     int
-#### year      int
-#### weekday   int
+![Time Table](./images/time_table.png)
 
 ### User
-#### user_id    int
-#### first_name varchar
-#### last_name  varchar
-#### gender     varchar
-#### level      varchar
-#### visits     int
+![Users Table](./images/users_table.png)
 
 ### Songplay
-#### Fact table
-#### songplay_id serial - for primary key incrementing
-#### start_time  time
-#### user_id     int
-#### level       varchar
-#### song_id     varchar
-#### artist_id   varchar
-#### session_id  int
-#### location    varchar
-#### user_agent  varchar
+![Song Plays Table](./images/songplays_table.png)
