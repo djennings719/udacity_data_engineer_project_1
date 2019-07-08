@@ -13,9 +13,11 @@
 
 ## Background
 
-#### Sparkify requires the ability to analyze data regarding which songs are being played.  
+Sparkify requires the ability to analyze data regarding which songs are being played.  
 
-## Reasoning for database schema
+The database will contain 1 fact table and 4 dimension tables.  
+
+## Table structure
 
 ### Song 
 ![Songs Table](./images/songs_table.png)
